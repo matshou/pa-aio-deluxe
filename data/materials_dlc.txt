@@ -1,0 +1,22 @@
+BEGIN Object
+    Name                 ComfyBed
+    Height               2
+    ConstructionTime     3.00000
+    MoveSpeedFactor      0.500000
+    Toughness            20.0000
+    Price                -1500
+    NumSlots             2
+    AttachToWall         true
+    Group                StaticObject
+    BlockedBy            Wall
+    BlockedBy            StaticObject
+    BlockedBy            UtilityStation
+    MadeOf               Wood
+    Sprite               SuperiorBed
+    SpriteScale          1.1
+    ToolbarSprite        SuperiorBedToolbar
+    Properties           StaticObject
+    Properties           RoomSpecific
+    BEGIN ImprovesRoom   Room   Cell END
+    DLC                  PrisonWingPriviledges
+END
