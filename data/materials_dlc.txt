@@ -41,3 +41,23 @@ BEGIN Object
 	VersionAdded		 3000
 	DLC					 PrisonWingPriviledges
 END
+
+BEGIN Object
+	Name                 BathroomSink
+    ConstructionTime     1.00000
+    MoveCost             1
+	SpriteScale			 1.4
+    Price                -100
+	VersionAdded		 2000
+	Group                StaticObject
+    BlockedBy            Wall
+    BlockedBy            StaticObject
+    BlockedBy            UtilityStation
+    Properties           StaticObject
+    Properties		     RoomSpecific
+	AttachToWall		 true
+	IndoorOutdoor        IndoorOnly
+	SpecialRestriction	 AgainstWall
+	Sprite               d_BathroomSink
+	ToolbarSprite        d_BathroomSinkToolbar
+END
