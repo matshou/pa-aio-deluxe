@@ -20,3 +20,24 @@ BEGIN Object
     BEGIN ImprovesRoom   Room   Cell END
     DLC                  PrisonWingPriviledges
 END
+
+BEGIN Object
+    Name                 SinkMirror
+    ConstructionTime     3.00000
+    Price                -50
+    Group                StaticObject
+    BlockedBy            StaticObject
+	BlockedBy			 Wall
+    BlockedBy            UtilityStation
+    Sprite               d_SinkMirror
+    SpriteScale          0.875
+    MadeOf               Composite
+    Properties           StaticObject
+	BEGIN ImprovesRoom	 Room	Cell END
+	BEGIN ImprovesRoom	 Room	Dormitory END
+	AttachToWall		 true
+	IndoorOutdoor        IndoorOnly
+	SpecialRestriction	 AgainstWall
+	VersionAdded		 3000
+	DLC					 PrisonWingPriviledges
+END

@@ -356,6 +356,8 @@ object_MedWaste3 [Level 3]Needle (Wasted)
 object_MedicineCabinet Medicine Cabinet
 buildtoolbar_popup_obj_MedicineCabinet Can give the wounded first-aids automatically.\nTakes pressure off doctors while raise medical expenses.\n\nIt detects wounded people in 10 meters in the same room.\nExcept misbehaving prisoners or those already being healed by doctors.\nEach person can get this additional aid once every hour.\n\nThere are three levels of wound and corresponding aid:\n 1: for 0%+ wound; 20% recovery; $5\n 2: for 33%+ wound; 30% recovery; $10\n 3: for 67%+ wound; 40% recovery; $20\nYou can control cost via an option in its menu.\n\nCan be placed in rooms other than Infirmary. Good for doctors (unwilling to go out) and prisoners (don't bother to come if wound is minor).\nTimely treatment can increase the score of Health in prisoner Grading.\n\nIf there remains some wound, it can call a doctor.\n\nIf you have several Infirmaries, you can enable "This is an Infirmary". If there has been no doctor for an hour, it will call one.
 
+object_SinkMirror	Cell Sink
+buildtoolbar_popup_obj_SinkMirror Give an inmates cell a sink.\n -Caters to the Hygiene Need.
 
 medcab__level Max Level to Aid: *L
 medcab__level_no Max Level to Aid: NOT AT ALL
