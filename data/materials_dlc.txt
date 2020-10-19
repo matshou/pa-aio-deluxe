@@ -30,7 +30,7 @@ BEGIN Object
 	BlockedBy			 Wall
     BlockedBy            UtilityStation
     Sprite               d_SinkMirror
-    SpriteScale          0.875
+    SpriteScale          0.90
     MadeOf               Composite
     Properties           StaticObject
 	BEGIN ImprovesRoom	 Room	Cell END
@@ -46,7 +46,7 @@ BEGIN Object
 	Name                 BathroomSink
     ConstructionTime     1.00000
     MoveCost             1
-	SpriteScale			 1.4
+	SpriteScale			 1.2
     Price                -100
 	VersionAdded		 2000
 	Group                StaticObject
