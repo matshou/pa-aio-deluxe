@@ -3683,7 +3683,7 @@ BEGIN Room
     BEGIN Grading       Type    RoomSize Size   16              END
     BEGIN Grading       Type    OutsideWindow   GradeEffect 2   END
     BEGIN Grading       Type    OutsideWindow   Large true      END
-    BEGIN Grading       Type    Item    Id      OfficeDesk      END
+    BEGIN Grading       Type    Item    Id      SchoolDesk      END
     BEGIN Grading       Type    Item    Id      ShowerHead      END
     BEGIN Grading       Type    Item    Id      Tv  Alt LargeTv Multi true END
     BEGIN Grading       Type    Item    Id      Radio           END
