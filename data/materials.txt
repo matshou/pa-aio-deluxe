@@ -4097,7 +4097,7 @@ BEGIN Room
     Research             Health
     BEGIN Requirement Type MinimumSize  x 2  y 2  END
     BEGIN Requirement Type Object  Id MedicalBed  END
-    BEGIN Requirement Type Object  Id SinkMirror alt PersonalSink END
+    BEGIN Requirement Type Object  Id PersonalSink Alt BathroomSink END
     BEGIN LikelyObject  Id      SinkMirror    END
     BEGIN LikelyObject  Id    Door     END
     BEGIN LikelyObject  Id    MedicineCabinet     END
@@ -4127,7 +4127,7 @@ BEGIN Room
     BEGIN Requirement Type Object  Id LaundryMachine  END
     BEGIN Requirement Type Object  Id LaundryBasket  END
     BEGIN Requirement Type Object  Id IroningBoard Alt IroningBoardShort END
-    BEGIN Requirement Type Object  Id SinkMirror alt PersonalSink END
+    BEGIN Requirement Type Object  Id PersonalSink Alt BathroomSink END
     BEGIN LikelyObject  Id    Table     END
     BEGIN Contraband    Id    Rope      END
     Properties           PrisonersCanWork
@@ -4138,7 +4138,7 @@ BEGIN Room
     Name                 CleaningCupboard
     Research             Cleaning
     Properties           PrisonersCanWork
-    BEGIN Requirement Type Object  Id SinkMirror alt PersonalSink END
+    BEGIN Requirement Type Object  Id PersonalSink Alt BathroomSink,SinkMirror END
     BEGIN Contraband    Id      Poison  END
     BEGIN Contraband    Id      Club END
     BEGIN LikelyObject  Id      Bucket  END
