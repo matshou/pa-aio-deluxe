@@ -950,7 +950,7 @@ BEGIN Object
       Index 0
     END
     END
-    SpriteScale          1
+    SpriteScale          1.25
     NumSlots             1
     Properties           StaticObject
     Properties           RoomSpecific
