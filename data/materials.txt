@@ -1421,7 +1421,6 @@ BEGIN Object
     Toughness            10
     AttachToWall         false
     Group                StaticObject
-    Research             Education
     BlockedBy            Wall
     BlockedBy            StaticObject
     BlockedBy            UtilityStation
