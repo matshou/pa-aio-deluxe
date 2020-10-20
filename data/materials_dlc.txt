@@ -29,7 +29,14 @@ BEGIN Object
     BlockedBy            StaticObject
 	BlockedBy			 Wall
     BlockedBy            UtilityStation
-    Sprite               d_SinkMirror
+	BEGIN Sprite
+	x 10
+	y 10
+	w 2
+	h 2
+	RotateType 7
+	TopAligned false
+	END
     SpriteScale          0.90
     MadeOf               Composite
     Properties           StaticObject
