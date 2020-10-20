@@ -922,8 +922,8 @@ BEGIN Object
     BlockedBy            UtilityStation
     MadeOf               Wood
     BEGIN Sprite
-    x 14
-    y 16
+    x 10
+    y 12
     w 2
     h 2
     RotateType 1
