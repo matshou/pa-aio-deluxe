@@ -6,6 +6,12 @@
 research_groundskeeping Groundskeeping
 objective_grant_maintenance_research_groundskeeping Unlock Groundskeeping through Bureaucracy
 
+# More information
+researchtooltip_prioritize This research will unlock additional deployment options allowing you to assign doctors to sectors and prioritize janitors and gardeners assigned to sectors.
+buildtoolbar_deployment_Doctor Assign Doctors to sectors within your prison.\n\nIn addition to specified requirements you will also need to research Groundskeeping to unlock this deployment feature.
+buildtoolbar_deployment_PrioritizeJanitor Use this option to prioritize Janitors to perform their jobs in specific areas, before others around your prison. If you are short staffed, Janitors will try to cover your prioritized areas first. Assign 1, 2 or 3 Janitors to prioritise an area.\n\nIn addition to specified requirements you will also need to research Groundskeeping to unlock this deployment feature.
+buildtoolbar_deployment_PrioritizeGardener Use this option to prioritize Gardeners to perform their jobs in specific areas, before others around your prison. If you are short staffed, Gardeners will try to cover your prioritized areas first. Assign 1, 2 or 3 Gardeners to prioritise an area.\n\nIn addition to specified requirements you will also need to research Groundskeeping to unlock this deployment feature.
+
 # New objects
 object_SinkMirror	Prison Sink
 buildtoolbar_popup_obj_SinkMirror Simpe sink to help maintain inmate hygiene.
