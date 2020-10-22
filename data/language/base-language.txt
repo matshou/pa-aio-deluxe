@@ -1,6 +1,11 @@
 ﻿# =============================================================================
 # Unofficial Update
 # =============================================================================
+
+# Vanilla spelling corrections
+research_groundskeeping Groundskeeping
+objective_grant_maintenance_research_groundskeeping Unlock Groundskeeping through Bureaucracy
+
 # New objects
 object_SinkMirror	Prison Sink
 buildtoolbar_popup_obj_SinkMirror Simpe sink to help maintain inmate hygiene.
