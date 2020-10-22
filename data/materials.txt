@@ -3817,8 +3817,8 @@ BEGIN Room
     Properties           DiningArea
     Properties           QualityGraded
     BEGIN Requirement Type Object  Id ServingTable  END
-    BEGIN Requirement Type Object  Id Table Alt SmallTable END
-    BEGIN Requirement Type Object  Id Bench Alt SmallBench END
+    BEGIN Requirement Type Object  Id Table Alt SmallTable,OutdoorTable END
+    BEGIN Requirement Type Object  Id Bench Alt SmallBench,OutdoorTable END
     BEGIN LikelyObject  Id      Bin             END
     BEGIN LikelyObject  Id      SmallTable      END
     BEGIN LikelyObject  Id      SnackMachine    END
