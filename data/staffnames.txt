@@ -1,32 +1,24 @@
 ﻿
 BEGIN Names
-	MaleName H.Zolo
-	MaleName Church
 	MaleName Dave
 	MaleName Eric
 	MaleName Dredd
-	MaleName G.Uard
 	MaleName Guardo
-	MaleName McGuardface
 	MaleName Tucker
 	MaleName Anderson
 	MaleName Greg
 	MaleName Washington
-	MaleName TaserFace
 	MaleName Finlayson
 	MaleName Mike
 	MaleName Benji
 	MaleName Avery
 	MaleName Ace
 	MaleName Angel
-	MaleName Butterman
-	MaleName Caboose
 	MaleName Castle
 	MaleName Ferdinando
 	MaleName Lopez
 	MaleName Gordon
 	MaleName Lannister
-	MaleName Peabody
 	MaleName Sarge
 	MaleName Simmons
 	MaleName Smith
@@ -38,16 +30,11 @@ BEGIN Names
 	MaleName Shaggy
 	MaleName Shultz
 	MaleName Tenpenny
-	MaleName South-a-nator
 	MaleName Wick
-	MaleName Wiggum
-	MaleName ZreknarF
 	MaleName Murtaugh
 	MaleName Meissner
 	MaleName McClane
 	MaleName Lowry
-	MaleName Libitina
-	MaleName L.Money
 	MaleName Knauer
 	MaleName Johan
 	MaleName Jace
@@ -62,8 +49,6 @@ BEGIN Names
 	MaleName Caden
 	MaleName Brutus
 	MaleName Bellick
-	MaleName Baton
-	MaleName Barrowclough
 	MaleName Barney
 	MaleName Archer
 	MaleName Antonio
@@ -139,7 +124,6 @@ BEGIN Names
 	MaleName Shawshank
 	MaleName Shotton
 	MaleName Slacker
-	MaleName Spotswood
 	MaleName Stan
 	MaleName Stanford
 	MaleName Tom
@@ -168,16 +152,11 @@ BEGIN Names
 	FemaleName Turner
 	FemaleName Chan
 	FemaleName Dansen
-	FemaleName Lukewarm
-	FemaleName Mourning
-	FemaleName Tacklebury
 	FemaleName Walker
 	FemaleName Juan
 	FemaleName Fernandes
-	FemaleName Edgecombe
 	FemaleName Wick
 	FemaleName Wiggum
-	FemaleName ZreknarF
 	FemaleName Murtaugh
 	FemaleName Hein
 	FemaleName Antonio
@@ -225,9 +204,6 @@ BEGIN Names
 	FemaleName Powers
 	FemaleName Redfield
 	FemaleName Sasha
-	FemaleName Shawshank
-	FemaleName Shotton
-	FemaleName Spotswood
 	DogName Abby
 	DogName Ace
 	DogName Adele
@@ -241,18 +217,16 @@ BEGIN Names
 	DogName Dave
 	DogName Token
 	DogName Chloe
-	DogName K9
-	DogName Lebowski 
+	DogName Lebowski
 	DogName JoJo
 	DogName Deputy
-	DogName Charlie.B.Barkin
+	DogName Charlie
 	DogName Beethoven
-	DogName Mugglesworth
+	DogName Muggles
 	DogName Parmo
 	DogName Pambo
 	DogName Saxon
 	DogName Scooby
-	DogName Stinky-Pete
 	DogName Woof
 	DogName Trooper
 	DogName Rover
@@ -304,12 +278,8 @@ BEGIN Names
 	DogName Dash
 	DogName Dazzle
 	DogName Django
-	DogName Dog
 	DogName Doge
-	DogName Dogfather
-	DogName Doggy-McDogface
-	DogName Dogsbody
-	DogName Dukino
+	DogName Duke
 	DogName Echo
 	DogName Einstein
 	DogName Ellie
@@ -340,8 +310,6 @@ BEGIN Names
 	DogName Jazz
 	DogName Jenna
 	DogName Jersey
-	DogName Joh
-	DogName JOOOH
 	DogName Josie
 	DogName Joy
 	DogName Julius
@@ -363,7 +331,6 @@ BEGIN Names
 	DogName Lila
 	DogName Lilly
 	DogName Linx
-	DogName Little-Jimmy
 	DogName Lolita
 	DogName Lucy
 	DogName Mackay
@@ -373,8 +340,6 @@ BEGIN Names
 	DogName Mocha
 	DogName Mojo
 	DogName Molly
-	DogName Mr.Sniffles
-	DogName Mr.Wuffles
 	DogName Muffin
 	DogName Mutley
 	DogName Mutt
@@ -388,7 +353,6 @@ BEGIN Names
 	DogName Peach
 	DogName Pepper
 	DogName Pluto
-	DogName Porkchop
 	DogName Prada
 	DogName Puppy
 	DogName Ranger
@@ -427,7 +391,6 @@ BEGIN Names
 	DogName Tease
 	DogName Tessa
 	DogName Tofu
-	DogName Top-Dog
 	DogName Tuffy
 	DogName Tux
 	DogName Twitch
@@ -439,7 +402,6 @@ BEGIN Names
 	DogName Woofy
 	DogName Wrigley
 	DogName Yeller
-	DogName Yippee-ki-yay
 	DogName Yui
 	DogName Zip
 	DogName Apollo
@@ -505,12 +467,11 @@ BEGIN Names
 	DogName Wyatt
 	DogName Zeke
 	DogName Tucker
-	DogName Penny 
+	DogName Penny
 	DogName Hattie
 	DogName Elsa
 	DogName Demi
 	DogName Duke
-	DogName Ankle-Biter
 	DogName Arya
 	DogName Barkspawn
 	DogName Bebop
@@ -519,9 +480,7 @@ BEGIN Names
 	DogName Bonaparte
 	DogName Bonesy
 	DogName Cat
-	DogName Chew-Barka
 	DogName Chop
-	DogName Cringer
 	DogName Digby
 	DogName Direwoof
 	DogName Drogon
@@ -540,7 +499,6 @@ BEGIN Names
 	DogName Kuma
 	DogName Lola
 	DogName Maisie
-	DogName McSnifflesworth
 	DogName Meeko
 	DogName Milo
 	DogName Nanaki
@@ -548,7 +506,6 @@ BEGIN Names
 	DogName Neytiri
 	DogName Nikitas
 	DogName Nymeria
-	DogName Puptimus-Prime
 	DogName Bitey
 	DogName PaRappa
 	DogName Pombleton
@@ -559,7 +516,6 @@ BEGIN Names
 	DogName Ragnarok
 	DogName Raksha
 	DogName Rawhide
-	DogName RedXIII
 	DogName Remy
 	DogName Rocket
 	DogName Sgt.Snarl
