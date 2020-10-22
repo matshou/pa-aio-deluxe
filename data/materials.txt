@@ -3920,8 +3920,8 @@ BEGIN Room
     BEGIN LikelyObject  Id      SnackMachine    END
 
     BEGIN Grading       Type    RoomSize    Size    25  END
-    BEGIN Grading       Type    RoomSize    Size    50 GradingEffect 2  END
-    BEGIN Grading       Type    RoomSizeLess Size   16 GradingEffect -1 END
+    BEGIN Grading       Type    RoomSize    Size    50 GradeEffect 2  END
+    BEGIN Grading       Type    RoomSizeLess Size   16 GradeEffect -1 END
     BEGIN Grading       Type    Item    Id      DumbbellRack    END
     BEGIN Grading       Type    Item    Id      Bleachers       END
     BEGIN Grading       Type    Item    Id      PunchBag     END
