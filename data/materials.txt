@@ -3736,7 +3736,6 @@ BEGIN Room
     BEGIN Grading       Type    OutsideWindow   GradeEffect 2 END
     BEGIN Grading       Type    Item    Id      ShowerHead  Quantity 1 END
     BEGIN Grading       Type    Item    Id      WaterCooler            END
-    BEGIN Grading       Type    Item    Id      TableFootball Alt TableTennis,PoolTable Multi true END
     BEGIN Grading       Type    Item    Id      Tv Alt LargeTv   Multi true END
     BEGIN Grading       Type    Item    Id      Radio           END
     BEGIN Grading       Type    Item    Id      Fan           END
