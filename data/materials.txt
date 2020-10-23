@@ -3686,7 +3686,7 @@ BEGIN Room
     BEGIN Grading       Type    Item    Id      ShowerHead      END
     BEGIN Grading       Type    Item    Id      Tv  Alt LargeTv Multi true END
     BEGIN Grading       Type    Item    Id      Radio           END
-    BEGIN Grading       Type    Item    Id      Bookshelf  Alt ShortBookcase  END
+    BEGIN Grading       Type    Item    Id      Bookshelf  Alt ShortBookcase Multi true  END
     BEGIN Grading       Type    Item    Id      Chair   Alt WoodenStool,LeatherChair,OfficeChair,SofaChairSingle  Multi true  END
     BEGIN Grading       Type    Item    Id      PetBird         END
     BEGIN Grading       Type    Item    Id      SoftPillow      END
@@ -3739,7 +3739,7 @@ BEGIN Room
     BEGIN Grading       Type    Item    Id      Tv Alt LargeTv   Multi true END
     BEGIN Grading       Type    Item    Id      Radio           END
     BEGIN Grading       Type    Item    Id      Fan           END
-    BEGIN Grading       Type    Item    Id      Bookshelf  Alt ShortBookcase   END
+    BEGIN Grading       Type    Item    Id      Bookshelf  Alt ShortBookcase Multi true  END
     BEGIN Grading       Type    Item    Id      Chair   Alt Bench,SmallBench,OakBench,WoodenStool,LeatherChair,OfficeChair,SofaChairSingle,SofaChairDouble  Multi true  END
     BEGIN Grading       Type    Item    Id      SinkMirror      END
     BEGIN Grading       Type    BadWalls    Percent 50  GradeEffect -1          END
@@ -3972,7 +3972,7 @@ BEGIN Room
     BEGIN Grading       Type    Item    Id      PoolTable   END
     BEGIN Grading       Type    Item    Id      TableFootball   END
     BEGIN Grading       Type    Item    Id      TableTennis END
-    BEGIN Grading       Type    Item    Id      Tv Alt LargeTv END
+    BEGIN Grading       Type    Item    Id      Tv Alt LargeTv Multi true END
     BEGIN Grading       Type    Item    Id      ChessTable  END
     BEGIN Grading       Type    Item    Id      Radio       END
     BEGIN Grading       Type    Item    Id      ArcadeCabinet   END
