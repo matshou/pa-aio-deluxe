@@ -2,6 +2,43 @@
 
 All notable changes to this project will be documented in this file.
 
+## [Version 6.4](https://github.com/yooksi/pa-aio-deluxe/releases/tag/v6.4)
+
+[Full Changelog](https://github.com/yooksi/pa-aio-deluxe/commit/f6823defcf9e30c7989c647676e8802d6be3d5ec)
+
+### Object
+
+- Re-design Sink and Mirror object:
+	- Remove mirror from object texture.
+	- Slightly reduce object scale.
+	- Improve texture color blending.
+	- Rename object to better reflect its intent.
+	- Remove object entry from some room requirements.
+
+- Slightly reduce Bathroom Sink object scale.
+- Re-texture and re-scale Bookshelf object.
+- School Desk no longer requires Education research.
+- Add Outdoor Table to Canteen room requirements.
+- Exclude Table Football, Table Tennis and Pool Table from Common Room grading.
+
+### Fixes
+
+- Fix Comfy Bed object changes not being applied.
+- Fix incorrect Cell grading entry (office desk).
+- Fix some Common Room grading entries displayed as `none`.
+- Fix some room grading multi entries not recognized.
+- Fix malformed Yard grading entries (not recognized).
+- Fix Staff door object displayed as Bookshelf when carried by workmen.
+- Fix minor Bunkbed tooltip text mistake (decrease rate).
+- Fix Groundskeeping localization typo.
+
+### Other
+
+- Remove some visitation grant objectives.
+- Provide more info about deployment and prioritization through tooltips.
+- Remove lower quality staff name entries from `staffnames.txt`.
+
+
 ## [Version 6.3](https://github.com/yooksi/pa-aio-deluxe/releases/tag/v6.3)
 
 [Full Changelog](https://github.com/yooksi/pa-aio-deluxe/commit/95276ad5ad0097f84f69fb1f03d2559f03a2dc36)
