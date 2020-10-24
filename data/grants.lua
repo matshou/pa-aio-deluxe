@@ -241,7 +241,7 @@ end
 
 
 function CreatePrisonerVisitationGrant()
-    Objective.CreateGrant           ( "Grant_Visitation", 1000, 2000 )
+    Objective.CreateGrant           ( "Grant_Visitation", 2000, 2000 )
     Objective.SetPreRequisite       ( "Completed", "Grant_bootstraps", 0 )
 
     Objective.CreateGrant           ( "Grant_Visitation_Room", 500, 1500 )
@@ -257,15 +257,15 @@ function CreatePrisonerVisitationGrant()
     Objective.RequireObjects        ( "PhoneBooth", 5 )
 
     Objective.CreateGrant           ( "Grant_Visitation_CommonRoom", 0, 500 )
-    Objective.SetParent             ( "Grant_Visitation" )
+    Objective.SetParent             ( "Grant_Dummy" )
     Objective.RequireObjects        ( "WeightsBench", 3 )
 
     Objective.CreateGrant           ( "Grant_Visitation_TV", 500, 0 )
-    Objective.SetParent             ( "Grant_Visitation" )
+    Objective.SetParent             ( "Grant_Dummy" )
     Objective.RequireObjects        ( "LargeTv", 1 )
 
     Objective.CreateGrant           ( "Grant_Visitation_PoolTable", 500, 0 )
-    Objective.SetParent             ( "Grant_Visitation" )
+    Objective.SetParent             ( "Grant_Dummy" )
     Objective.RequireObjects        ( "PoolTable", 1 )
 
 end

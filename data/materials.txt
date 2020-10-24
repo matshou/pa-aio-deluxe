@@ -1,27 +1,4 @@
 BEGIN Object
-    Name                 ComfyBed
-    Height               2
-    ConstructionTime     3.00000
-    MoveSpeedFactor      0.500000
-    Toughness            20.0000
-    Price                -1500
-    NumSlots             2
-    AttachToWall         true
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    MadeOf               Wood
-    Sprite               SuperiorBed
-    SpriteScale          1.1
-    ToolbarSprite        SuperiorBedToolbar
-    Properties           StaticObject
-    Properties           RoomSpecific
-    BEGIN ImprovesRoom   Room   Cell END
-    DLC                  PrisonWingPriviledges
-END
-
-BEGIN Object
     Name                 PipeLarge
     ConstructionTime     20
     MaxStackSize         10
@@ -945,8 +922,8 @@ BEGIN Object
     BlockedBy            UtilityStation
     MadeOf               Wood
     BEGIN Sprite
-    x 14
-    y 16
+    x 10
+    y 12
     w 2
     h 2
     RotateType 1
@@ -973,7 +950,7 @@ BEGIN Object
       Index 0
     END
     END
-    SpriteScale          1
+    SpriteScale          1.25
     NumSlots             1
     Properties           StaticObject
     Properties           RoomSpecific
@@ -1444,7 +1421,6 @@ BEGIN Object
     Toughness            10
     AttachToWall         false
     Group                StaticObject
-    Research             Education
     BlockedBy            Wall
     BlockedBy            StaticObject
     BlockedBy            UtilityStation
@@ -3706,11 +3682,11 @@ BEGIN Room
     BEGIN Grading       Type    RoomSize Size   16              END
     BEGIN Grading       Type    OutsideWindow   GradeEffect 2   END
     BEGIN Grading       Type    OutsideWindow   Large true      END
-    BEGIN Grading       Type    Item    Id      OfficeDesk      END
+    BEGIN Grading       Type    Item    Id      SchoolDesk      END
     BEGIN Grading       Type    Item    Id      ShowerHead      END
     BEGIN Grading       Type    Item    Id      Tv  Alt LargeTv Multi true END
     BEGIN Grading       Type    Item    Id      Radio           END
-    BEGIN Grading       Type    Item    Id      Bookshelf  Alt ShortBookcase  END
+    BEGIN Grading       Type    Item    Id      Bookshelf  Alt ShortBookcase Multi true  END
     BEGIN Grading       Type    Item    Id      Chair   Alt WoodenStool,LeatherChair,OfficeChair,SofaChairSingle  Multi true  END
     BEGIN Grading       Type    Item    Id      PetBird         END
     BEGIN Grading       Type    Item    Id      SoftPillow      END
@@ -3760,11 +3736,10 @@ BEGIN Room
     BEGIN Grading       Type    OutsideWindow   GradeEffect 2 END
     BEGIN Grading       Type    Item    Id      ShowerHead  Quantity 1 END
     BEGIN Grading       Type    Item    Id      WaterCooler            END
-    BEGIN Grading       Type    Item    Id      TableFootball Alt TableTennis,PoolTable Multi true END
     BEGIN Grading       Type    Item    Id      Tv Alt LargeTv   Multi true END
     BEGIN Grading       Type    Item    Id      Radio           END
     BEGIN Grading       Type    Item    Id      Fan           END
-    BEGIN Grading       Type    Item    Id      Bookshelf  Alt ShortBookcase   END
+    BEGIN Grading       Type    Item    Id      Bookshelf  Alt ShortBookcase Multi true  END
     BEGIN Grading       Type    Item    Id      Chair   Alt Bench,SmallBench,OakBench,WoodenStool,LeatherChair,OfficeChair,SofaChairSingle,SofaChairDouble  Multi true  END
     BEGIN Grading       Type    Item    Id      SinkMirror      END
     BEGIN Grading       Type    BadWalls    Percent 50  GradeEffect -1          END
@@ -3841,8 +3816,8 @@ BEGIN Room
     Properties           DiningArea
     Properties           QualityGraded
     BEGIN Requirement Type Object  Id ServingTable  END
-    BEGIN Requirement Type Object  Id Table Alt SmallTable END
-    BEGIN Requirement Type Object  Id Bench Alt SmallBench END
+    BEGIN Requirement Type Object  Id Table Alt SmallTable,OutdoorTable END
+    BEGIN Requirement Type Object  Id Bench Alt SmallBench,OutdoorTable END
     BEGIN LikelyObject  Id      Bin             END
     BEGIN LikelyObject  Id      SmallTable      END
     BEGIN LikelyObject  Id      SnackMachine    END
@@ -3944,8 +3919,8 @@ BEGIN Room
     BEGIN LikelyObject  Id      SnackMachine    END
 
     BEGIN Grading       Type    RoomSize    Size    25  END
-    BEGIN Grading       Type    RoomSize    Size    50 GradingEffect 2  END
-    BEGIN Grading       Type    RoomSizeLess Size   16 GradingEffect -1 END
+    BEGIN Grading       Type    RoomSize    Size    50 GradeEffect 2  END
+    BEGIN Grading       Type    RoomSizeLess Size   16 GradeEffect -1 END
     BEGIN Grading       Type    Item    Id      DumbbellRack    END
     BEGIN Grading       Type    Item    Id      Bleachers       END
     BEGIN Grading       Type    Item    Id      PunchBag     END
@@ -3997,10 +3972,10 @@ BEGIN Room
     BEGIN Grading       Type    Item    Id      PoolTable   END
     BEGIN Grading       Type    Item    Id      TableFootball   END
     BEGIN Grading       Type    Item    Id      TableTennis END
-    BEGIN Grading       Type    Item    Id      SmallTv Alt LargeTv END
+    BEGIN Grading       Type    Item    Id      Tv Alt LargeTv Multi true END
     BEGIN Grading       Type    Item    Id      ChessTable  END
     BEGIN Grading       Type    Item    Id      Radio       END
-    BEGIN Grading       Type    Item    Id      ArcadeMachine   END
+    BEGIN Grading       Type    Item    Id      ArcadeCabinet   END
 END
 
 
@@ -4120,7 +4095,7 @@ BEGIN Room
     Research             Health
     BEGIN Requirement Type MinimumSize  x 2  y 2  END
     BEGIN Requirement Type Object  Id MedicalBed  END
-    BEGIN Requirement Type Object  Id SinkMirror alt PersonalSink END
+    BEGIN Requirement Type Object  Id PersonalSink Alt BathroomSink END
     BEGIN LikelyObject  Id      SinkMirror    END
     BEGIN LikelyObject  Id    Door     END
     BEGIN LikelyObject  Id    MedicineCabinet     END
@@ -4150,7 +4125,7 @@ BEGIN Room
     BEGIN Requirement Type Object  Id LaundryMachine  END
     BEGIN Requirement Type Object  Id LaundryBasket  END
     BEGIN Requirement Type Object  Id IroningBoard Alt IroningBoardShort END
-    BEGIN Requirement Type Object  Id SinkMirror alt PersonalSink END
+    BEGIN Requirement Type Object  Id PersonalSink Alt BathroomSink END
     BEGIN LikelyObject  Id    Table     END
     BEGIN Contraband    Id    Rope      END
     Properties           PrisonersCanWork
@@ -4161,7 +4136,7 @@ BEGIN Room
     Name                 CleaningCupboard
     Research             Cleaning
     Properties           PrisonersCanWork
-    BEGIN Requirement Type Object  Id SinkMirror alt PersonalSink END
+    BEGIN Requirement Type Object  Id PersonalSink Alt BathroomSink,SinkMirror END
     BEGIN Contraband    Id      Poison  END
     BEGIN Contraband    Id      Club END
     BEGIN LikelyObject  Id      Bucket  END

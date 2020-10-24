@@ -1,0 +1,70 @@
+BEGIN Object
+    Name                 ComfyBed
+    Height               2
+    ConstructionTime     3.00000
+    MoveSpeedFactor      0.500000
+    Toughness            20.0000
+    Price                -1500
+    NumSlots             2
+    AttachToWall         true
+    Group                StaticObject
+    BlockedBy            Wall
+    BlockedBy            StaticObject
+    BlockedBy            UtilityStation
+    MadeOf               Wood
+    Sprite               SuperiorBed
+    SpriteScale          1.1
+    ToolbarSprite        SuperiorBedToolbar
+    Properties           StaticObject
+    Properties           RoomSpecific
+    BEGIN ImprovesRoom   Room   Cell END
+    DLC                  PrisonWingPriviledges
+END
+
+BEGIN Object
+    Name                 SinkMirror
+    ConstructionTime     3.00000
+    Price                -50
+    Group                StaticObject
+    BlockedBy            StaticObject
+	BlockedBy			 Wall
+    BlockedBy            UtilityStation
+	BEGIN Sprite
+	x 10
+	y 10
+	w 2
+	h 2
+	RotateType 7
+	TopAligned false
+	END
+    SpriteScale          0.90
+    MadeOf               Composite
+    Properties           StaticObject
+	BEGIN ImprovesRoom	 Room	Cell END
+	BEGIN ImprovesRoom	 Room	Dormitory END
+	AttachToWall		 true
+	IndoorOutdoor        IndoorOnly
+	SpecialRestriction	 AgainstWall
+	VersionAdded		 3000
+	DLC					 PrisonWingPriviledges
+END
+
+BEGIN Object
+	Name                 BathroomSink
+    ConstructionTime     1.00000
+    MoveCost             1
+	SpriteScale			 1.3
+    Price                -100
+	VersionAdded		 2000
+	Group                StaticObject
+    BlockedBy            Wall
+    BlockedBy            StaticObject
+    BlockedBy            UtilityStation
+    Properties           StaticObject
+    Properties		     RoomSpecific
+	AttachToWall		 true
+	IndoorOutdoor        IndoorOnly
+	SpecialRestriction	 AgainstWall
+	Sprite               d_BathroomSink
+	ToolbarSprite        d_BathroomSinkToolbar
+END

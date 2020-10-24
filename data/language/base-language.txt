@@ -1,4 +1,22 @@
-﻿## Upate 14
+﻿# =============================================================================
+# Unofficial Update
+# =============================================================================
+
+# Vanilla spelling corrections
+research_groundskeeping Groundskeeping
+objective_grant_maintenance_research_groundskeeping Unlock Groundskeeping through Bureaucracy
+
+# More information
+researchtooltip_prioritize This research will unlock additional deployment options allowing you to assign doctors to sectors and prioritize janitors and gardeners assigned to sectors.
+buildtoolbar_deployment_Doctor Assign Doctors to sectors within your prison.\n\nIn addition to specified requirements you will also need to research Groundskeeping to unlock this deployment feature.
+buildtoolbar_deployment_PrioritizeJanitor Use this option to prioritize Janitors to perform their jobs in specific areas, before others around your prison. If you are short staffed, Janitors will try to cover your prioritized areas first. Assign 1, 2 or 3 Janitors to prioritise an area.\n\nIn addition to specified requirements you will also need to research Groundskeeping to unlock this deployment feature.
+buildtoolbar_deployment_PrioritizeGardener Use this option to prioritize Gardeners to perform their jobs in specific areas, before others around your prison. If you are short staffed, Gardeners will try to cover your prioritized areas first. Assign 1, 2 or 3 Gardeners to prioritise an area.\n\nIn addition to specified requirements you will also need to research Groundskeeping to unlock this deployment feature.
+
+# New objects
+object_SinkMirror	Prison Sink
+buildtoolbar_popup_obj_SinkMirror Simpe sink to help maintain inmate hygiene.
+
+## Update 14
 
 interfacetopbar_tension_hoursonrollcall + Prisoners are angry about Roll Call
 # + Prisoners are angry about Roll Call
@@ -355,7 +373,6 @@ object_MedWaste3 [Level 3]Needle (Wasted)
 
 object_MedicineCabinet Medicine Cabinet
 buildtoolbar_popup_obj_MedicineCabinet Can give the wounded first-aids automatically.\nTakes pressure off doctors while raise medical expenses.\n\nIt detects wounded people in 10 meters in the same room.\nExcept misbehaving prisoners or those already being healed by doctors.\nEach person can get this additional aid once every hour.\n\nThere are three levels of wound and corresponding aid:\n 1: for 0%+ wound; 20% recovery; $5\n 2: for 33%+ wound; 30% recovery; $10\n 3: for 67%+ wound; 40% recovery; $20\nYou can control cost via an option in its menu.\n\nCan be placed in rooms other than Infirmary. Good for doctors (unwilling to go out) and prisoners (don't bother to come if wound is minor).\nTimely treatment can increase the score of Health in prisoner Grading.\n\nIf there remains some wound, it can call a doctor.\n\nIf you have several Infirmaries, you can enable "This is an Infirmary". If there has been no doctor for an hour, it will call one.
-
 
 medcab__level Max Level to Aid: *L
 medcab__level_no Max Level to Aid: NOT AT ALL
@@ -1162,7 +1179,7 @@ buildtoolbar_popup_obj_sellobject Hold the Left Button of your Mouse and drag to
 
 buildtoolbar_popup_obj_bed Not too soft, not too hard, just right. Well, actually, really hard and too small.\n\nSatisfies Sleep and Comfort needs。\nDecrease Rates: 0.15 and 0.2\n(I don't know exactly what unit of this rate is...)\n[Tweaks] Both were 0.2.\nIf a prisoner starts sleeping with 10 plus marks, he will end in mere 5 hours. That is too fast.\nBesides, prisoners often start sleeping with fewer plus marks of Sleep need.
 # `Not too soft, not too hard, just right. Well, actually, really hard and too small.
-buildtoolbar_popup_obj_bunkbed Let prisoner play ensemble with snores.\n\nOnly useful at Dormitories and Holding Cells.\n\nNot very good for Sleep and Comfort.\nDecrease Rates: 0.08 and 0.05\n[Tweaks] They were 0.2 and 0.05.\nPrisoners will need sleep for 10 hours.\nSo there is cost for saving money and space.\nBut lying in bed should be more comfortable than sitting in chair, don't you agree?
+buildtoolbar_popup_obj_bunkbed Let prisoner play ensemble with snores.\n\nOnly useful at Dormitories and Holding Cells.\n\nNot very good for Sleep and Comfort.\nDecrease Rates: 0.12 and 0.15\n[Tweaks] They were 0.2 and 0.05.\nPrisoners will need sleep for 10 hours.\nSo there is cost for saving money and space.\nBut lying in bed should be more comfortable than sitting in chair, don't you agree?
 buildtoolbar_popup_obj_toilet A basic human right, if you believe all those crackpots.\n\nCan reduce Bladder and Bowels at the same time.\n\nYou can install some at Shower, Yard beside cells.\n\nTunnels for escape are hidden beneath Toilets. Search them to discover.\nIf you click Search in context menu of a Toilet, you will have a chance of 100%. While search more objects including this Toilet will not be as efficient.\n\nHas some impact on walk speed (0.5)
 # `A basic human right, if you believe all those crackpots.
 
