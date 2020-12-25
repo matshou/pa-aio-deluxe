@@ -905,9 +905,6 @@ BEGIN Object
     ToolbarSprite        WeightsToolbar
     Properties           StaticObject
 END
-
-
-
 BEGIN Object
     Name                 Bookshelf
     ConstructionTime     2
@@ -922,10 +919,60 @@ BEGIN Object
     BlockedBy            UtilityStation
     MadeOf               Wood
     BEGIN Sprite
+    x 14
+    y 16
+    w 2
+    h 2
+    RotateType 1
+    TopAligned true
+    BEGIN Marker
+      x 1
+      y 1.3
+      orientation.x 0
+      orientation.y -1
+      Index 0
+    END
+    BEGIN Marker
+      x 3
+      y 0.1
+      orientation.x 0
+      orientation.y 1
+      Index 0
+    END
+    BEGIN Marker
+      x 4.2
+      y 0.5
+      orientation.x 1
+      orientation.y 0
+      Index 0
+    END
+    END
+    SpriteScale          1
+    NumSlots             1
+    Properties           StaticObject
+    Properties           RoomSpecific
+END
+
+
+
+BEGIN Object
+    Name                 BigBookshelf
+    ConstructionTime     2
+    MoveSpeedFactor      0.7
+    Toughness            10
+    Price                -50
+    RenderDepth          2
+    AttachToWall         true
+    Group                StaticObject
+    BlockedBy            Wall
+    BlockedBy            StaticObject
+    BlockedBy            UtilityStation
+    MadeOf               Wood
+    BEGIN Sprite
     x 10
     y 12
     w 2
-    h 2
+    h 1
     RotateType 1
     TopAligned true
     BEGIN Marker

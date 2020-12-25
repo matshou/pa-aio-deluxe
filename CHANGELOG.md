@@ -19,7 +19,7 @@ All notable changes to this project will be documented in this file.
 - Re-texture and re-scale Bookshelf object.
 - School Desk no longer requires Education research.
 - Add Outdoor Table to Canteen room requirements.
-- Exclude Table Football, Table Tennis and Pool Table from Common Room grading.
+- Exclude Table Football, Table Tennis and Pool Table from Dormitory grading.
 
 ### Fixes
 
@@ -53,7 +53,7 @@ All notable changes to this project will be documented in this file.
 		<li>You can also move or rotate objects.
 	</ul>
 </details>
-	
+
 - <details>
 	<summary>Add <b>Faster Sleep Time</b> feature to speed up sleep time.</summary>
 	<ul>
@@ -61,7 +61,7 @@ All notable changes to this project will be documented in this file.
 		<li>Cheat mode is <b>required</b> for this feature to work.
 	</ul>
 </details>
-	
+
 - <details>
 	<summary>Foremans can now change floor material and terrain.</summary>
 	<ul>
@@ -74,12 +74,12 @@ All notable changes to this project will be documented in this file.
 		</ul>
 	</ul>
 </details>
-	
+
 - <details>
 	<summary>Lawyers can now earn your prison money from visitors.</summary>
 	<p>Visitation is still good for you even when phone booths can easily satisfy family needs.</p>
 </details>
-	
+
 - <details>
 	<summary>Added <b>Muster Guards</b> feature.</summary>
 	<p>Summons guards to a single location helping you deal with tough prisoners.</p>
@@ -114,7 +114,7 @@ All notable changes to this project will be documented in this file.
 
 ### Health
 
-- Food policy and exercising on weights bench now influence prisoners health. 
+- Food policy and exercising on weights bench now influence prisoners health.
 - Unhealthy prisoners will receive random damage to simulate bad health.
 - Doctors are now far busier and healing costs money, making injures non-trivial issues.
 
