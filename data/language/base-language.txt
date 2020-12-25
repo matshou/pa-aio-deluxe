@@ -4845,6 +4845,7 @@ object_fire                              Fire
 object_garbage                           Garbage
 object_rubble                            Rubble
 object_bookshelf                         Bookshelf
+object_bigbookshelf                      Big Bookshelf
 object_officedesk                        Office Desk
 object_filingcabinet                     Filing Cabinet
 object_medicalbed                        Medical Bed

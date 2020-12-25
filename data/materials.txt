@@ -972,7 +972,7 @@ BEGIN Object
     x 10
     y 12
     w 2
-    h 1
+    h 2
     RotateType 1
     TopAligned true
     BEGIN Marker
@@ -997,7 +997,7 @@ BEGIN Object
       Index 0
     END
     END
-    SpriteScale          1.25
+    SpriteScale          1.1
     NumSlots             1
     Properties           StaticObject
     Properties           RoomSpecific
