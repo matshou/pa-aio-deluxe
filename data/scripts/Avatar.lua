@@ -1876,7 +1876,7 @@ function Update()
 
 
 	if obj_fire then
-		obj_fire.Intensity = 20
+		obj_fire.Intensity = 2
 		obj_fire.Pos.x = target.Pos.x
 		obj_fire.Pos.y = target.Pos.y
 	end
